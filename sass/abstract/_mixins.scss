@@ -1,0 +1,8 @@
+// mixin to fix height collapsing when using floats
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
